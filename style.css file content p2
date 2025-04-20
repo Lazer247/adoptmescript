@@ -1,0 +1,70 @@
+button:hover {
+    background: #6f55c3;
+}
+
+.note {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ccc;
+}
+
+/* Discord section */
+.discord {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 20px;
+    color: #CD201F;
+}
+
+.discord img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+/* Discord Join Button */
+#discordBtn {
+    background: #7289da;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Luckiest Guy', cursive;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* White Glowing Outline */
+#discordBtn::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    border: 2px solid white;
+    box-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px white;
+    z-index: -1;
+}
+
+#discordBtn:hover {
+    background: #5b6eae;
+}
+
+/* Discord Logo Styling */
+.discord-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    object-fit: contain; /* Ensure the image stays proportionate */
+}
