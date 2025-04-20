@@ -1,5 +1,5 @@
 body {
-    background-color: #15102c;
+    background-color: #6F8FAF; /* CHANGED: Faded denim */
     color: #ffffff;
     font-family: 'Luckiest Guy', cursive;
     display: flex;
@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    background: #1c1331;
+    background: #5c7b97; /* CHANGED: Slightly darker denim tone for container */
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.2);
@@ -20,26 +20,26 @@ body {
 }
 
 h1 {
-    color: #ad83f9;
+    color: #ffffff; /* CHANGED: White header for contrast */
     font-size: 26px;
 }
 
 textarea {
     width: 100%;
     height: 80px;
-    background: #2a1e4a;
-    color: white;
+    background: #89CFF0; /* CHANGED: Baby blue */
+    color: #000000; /* CHANGED: Black text for contrast */
     border: none;
     padding: 10px;
     font-size: 16px;
     border-radius: 10px;
     resize: none;
-    font-family: Arial, sans-serif; /* Keeping script text normal */
+    font-family: Arial, sans-serif;
 }
 
 button {
-    background: #8d6fe2;
-    color: white;
+    background: #89CFF0; /* CHANGED: Baby blue */
+    color: #000000; /* CHANGED: Black text */
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -47,14 +47,16 @@ button {
     border-radius: 10px;
     margin-top: 10px;
     font-family: 'Luckiest Guy', cursive;
-}button:hover {
-    background: #6f55c3;
+}
+
+button:hover {
+    background: #73b5dc; /* CHANGED: Darker baby blue on hover */
 }
 
 .note {
     margin-top: 10px;
     font-size: 14px;
-    color: #ccc;
+    color: #e6e6e6; /* CHANGED: Softer white note */
 }
 
 /* Discord section */
@@ -75,8 +77,8 @@ button {
 
 /* Discord Join Button */
 #discordBtn {
-    background: #7289da;
-    color: white;
+    background: #89CFF0; /* CHANGED */
+    color: #000000; /* CHANGED */
     border: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -107,7 +109,7 @@ button {
 }
 
 #discordBtn:hover {
-    background: #5b6eae;
+    background: #73b5dc; /* CHANGED */
 }
 
 /* Discord Logo Styling */
@@ -115,5 +117,5 @@ button {
     width: 24px;
     height: 24px;
     margin-right: 10px;
-    object-fit: contain; /* Ensure the image stays proportionate */
+    object-fit: contain;
 }
